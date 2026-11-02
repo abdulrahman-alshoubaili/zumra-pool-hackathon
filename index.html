@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zumra Pool | BisB Hackathon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f6fb;--card:#fff;--ink:#16142b;--muted:#5d5a75;--accent:#7b3fe4;--accent2:#1d9bb2;--line:#e5e2f0}
+*{box-sizing:border-box;margin:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#5b2bbf,#9b4dff 60%,#1d9bb2);color:#fff;padding:72px 0 64px}
+.tag{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.16);padding:6px 12px;border-radius:99px}
+h1{font-size:clamp(40px,7vw,64px);font-weight:800;line-height:1.05;margin:18px 0 8px}
+.lead{font-size:clamp(18px,2.4vw,22px);opacity:.92;max-width:620px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:12px 20px;border-radius:10px;font-weight:600;text-decoration:none}
+.btn.primary{background:#fff;color:#5b2bbf}
+.btn.ghost{border:1.5px solid rgba(255,255,255,.6);color:#fff}
+section{padding:56px 0}
+h2{font-size:28px;font-weight:700;margin-bottom:8px}
+.sub{color:var(--muted);margin-bottom:28px;max-width:680px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{font-size:17px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:15px}
+.steps{counter-reset:s;display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;margin-bottom:10px}
+.step b{display:block}
+.step span{color:var(--muted);font-size:14px}
+.stat{font-size:36px;font-weight:800;color:var(--accent)}
+.facts{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.facts div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.facts small{display:block;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.05em}
+.gallery{display:grid;gap:16px;grid-template-columns:1fr 1.6fr}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line)}
+.deck{width:100%;height:560px;border:1px solid var(--line);border-radius:14px;background:#fff}
+footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+@media(max-width:640px){.gallery{grid-template-columns:1fr}.deck{height:320px}header{padding:52px 0 44px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="tag">BisB × INJAZ Bahrain Hackathon · Oct 2026</span>
+    <h1>Zumra Pool</h1>
+    <p class="lead">Pool small. Invest together. Sharia-compliant investing inside the BisB app, starting from BD 10.</p>
+    <div class="btns">
+      <a class="btn primary" href="assets/Zumra_Pool_Pitch_Deck.pdf" target="_blank" rel="noopener">View pitch deck</a>
+      <a class="btn ghost" href="#evidence">Certificate &amp; photos</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="facts">
+      <div><small>Event</small>BisB Next-Gen Islamic Investment Innovation Product Hackathon</div>
+      <div><small>Dates</small>13–15 October 2026</div>
+      <div><small>Team</small>Bahrain Polytechnic Team 3: Ali Fadhul &amp; Abdulrahman Alshoubaili</div>
+      <div><small>Outcome</small>Pitched on Day 3; interviewed by Al-Watan</div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>The problem</h2>
+    <p class="sub">For young professionals, first-time investors and salaried savers with BD 10 to 500 to spare, investing feels out of reach.</p>
+    <div class="grid">
+      <div class="card"><h3>Limited capital</h3><p>Many products need large minimum amounts.</p></div>
+      <div class="card"><h3>Hard to find the right fit</h3><p>Options are complex and scattered across platforms.</p></div>
+      <div class="card"><h3>Unclear risks and fees</h3><p>People hesitate when they can't see them.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>The solution</h2>
+    <p class="sub">A feature inside the BisB app where people pool small amounts into one managed, Sharia-compliant portfolio.</p>
+    <div class="grid">
+      <div class="card"><h3>Zumra Stable</h3><p>Lower risk, steadier returns.</p></div>
+      <div class="card"><h3>Zumra Balanced</h3><p>A mix of risk levels.</p></div>
+      <div class="card"><h3>Zumra Growth</h3><p>Higher growth, higher risk.</p></div>
+    </div>
+    <h2 style="margin-top:44px">How it works</h2>
+    <p class="sub">From first deposit to withdrawal in five steps.</p>
+    <div class="steps">
+      <div class="step"><b>Invest</b><span>Join in the BisB app from BD 10 and add monthly.</span></div>
+      <div class="step"><b>Pool</b><span>Funds go to a segregated pool, not a person.</span></div>
+      <div class="step"><b>Manage</b><span>A licensed manager invests per portfolio policy.</span></div>
+      <div class="step"><b>Earn</b><span>Profit is shared pro-rata, net of fees.</span></div>
+      <div class="step"><b>Exit</b><span>Request any time, paid within 14 days.</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <h2>Sharia structure &amp; business model</h2>
+    <p class="sub">Built on Mudarabah: investors provide the capital (Rab al-Mal) and BisB provides the expertise (Mudarib). Funds go into Sukuk, Murabaha, Ijarah and compliant equities, with no guaranteed return and Sharia board approval.</p>
+    <div class="grid">
+      <div class="card"><div class="stat">1%</div><p>Annual management fee on assets under management.</p></div>
+      <div class="card"><div class="stat">2%</div><p>Share of investment profit under the Mudarabah ratio.</p></div>
+      <div class="card"><div class="stat">BD 10</div><p>Minimum to start, with monthly auto top-ups.</p></div>
+      <div class="card"><div class="stat">14 days</div><p>Exit window, funded by a cash and short-term Murabaha buffer.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="evidence" style="padding-top:0">
+  <div class="wrap">
+    <h2>Evidence</h2>
+    <p class="sub">Certificate of participation and the Day 3 pitch.</p>
+    <div class="gallery">
+      <img src="assets/pitch.jpg" alt="Abdulrahman presenting the Zumra Pool pitch on Day 3">
+      <img src="assets/certificate.jpg" alt="Certificate of participation">
+    </div>
+    <h2 style="margin-top:44px">Pitch deck</h2>
+    <p class="sub">The full 10-slide deck. <a href="assets/Zumra_Pool_Pitch_Deck.pdf" target="_blank" rel="noopener">Open it in a new tab</a> if it doesn't display here.</p>
+    <object class="deck" data="assets/Zumra_Pool_Pitch_Deck.pdf" type="application/pdf">
+      <a href="assets/Zumra_Pool_Pitch_Deck.pdf">Download the pitch deck</a>
+    </object>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Abdulrahman Alshoubaili · <a href="https://github.com/abdulrahman-alshoubaili">GitHub</a> · <a href="https://www.linkedin.com/in/abdulrahman-alshoubaili-b7394b294">LinkedIn</a></div>
+</footer>
+</body>
+</html>
